@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 var prefix = "*";
 
-client.login('NTE3NDU1NzY5NTMzMTUzMjgw.DuGptw.pS2hGw53h7aaJ5TjQt74-9_2Tjg');
+client.login('process.env.TOKEN');
 
 client.on('message' , message =>{
     if(message.content === "salut"){
